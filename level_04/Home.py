@@ -18,4 +18,5 @@ def multi_pages():
     st.write('## ', x, 'squared is', x * x)
 
 # Call the first_app() function
-multi_pages()
+if __name__ == "__main__":
+    multi_pages()
